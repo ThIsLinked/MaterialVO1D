@@ -2,21 +2,17 @@
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:state_pressed="true">
         <layer-list>
+            <item android:drawable="@drawable/button_bg" />
             <item>
-                <shape android:shape="rectangle">
-                    <solid android:color="@color/pressed" />
-                </shape>
-            </item>
-            <item>
-                <bitmap android:gravity="center" android:src="@drawable/b_tag_link" />
+                <vector android:width="@dimen/tag_bar_icon" android:height="@dimen/tag_bar_icon" android:viewportWidth="108.0" android:viewportHeight="108.0">
+                    <path android:fillColor="@color/colorControlNormal" android:pathData="M74.25,33.75H58.0499992v8.0999985H74.25c6.6824951,0,12.1500015,5.4675026,12.1500015,12.1500015 S80.9324951,66.1500015,74.25,66.1500015H58.0499992V74.25H74.25c11.1780014,0,20.25-9.0719986,20.25-20.25 S85.4280014,33.75,74.25,33.75z M49.9500008,66.1500015H33.75c-6.6825008,0-12.1499996-5.4675026-12.1499996-12.1500015 S27.0674992,41.8499985,33.75,41.8499985h16.2000008V33.75H33.75C22.5719986,33.75,13.5,42.8219986,13.5,54 s9.0719986,20.25,20.25,20.25h16.2000008V66.1500015z M37.7999992,49.9500008h32.3999977v8.0999985H37.7999992V49.9500008z" />
+                </vector>
             </item>
         </layer-list>
     </item>
-    <item android:state_enabled="true">
-        <layer-list>
-            <item>
-                <bitmap android:gravity="center" android:src="@drawable/b_tag_link" />
-            </item>
-        </layer-list>
+    <item android:state_pressed="false">
+        <vector android:width="@dimen/tag_bar_icon" android:height="@dimen/tag_bar_icon" android:viewportWidth="108.0" android:viewportHeight="108.0">
+            <path android:fillColor="@color/colorControlNormal" android:pathData="M74.25,33.75H58.0499992v8.0999985H74.25c6.6824951,0,12.1500015,5.4675026,12.1500015,12.1500015 S80.9324951,66.1500015,74.25,66.1500015H58.0499992V74.25H74.25c11.1780014,0,20.25-9.0719986,20.25-20.25 S85.4280014,33.75,74.25,33.75z M49.9500008,66.1500015H33.75c-6.6825008,0-12.1499996-5.4675026-12.1499996-12.1500015 S27.0674992,41.8499985,33.75,41.8499985h16.2000008V33.75H33.75C22.5719986,33.75,13.5,42.8219986,13.5,54 s9.0719986,20.25,20.25,20.25h16.2000008V66.1500015z M37.7999992,49.9500008h32.3999977v8.0999985H37.7999992V49.9500008z" />
+        </vector>
     </item>
 </selector>

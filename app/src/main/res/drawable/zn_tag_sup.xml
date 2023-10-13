@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="false">
+        <vector android:width="@dimen/tag_bar_icon" android:height="@dimen/tag_bar_icon" android:viewportWidth="108.0" android:viewportHeight="108.0">
+            <path android:fillColor="@color/zn_colorControlNormal" android:pathData="M89.768692,30.3434582h-9.462616v4.7313099H94.5v4.731308H75.5747681v-9.4626179 c0-2.6022205,2.1290894-4.731308,4.731308-4.731308h9.462616v-4.7313099h-14.193924v-4.731308h14.193924 c2.6022186,0,4.731308,2.1290874,4.731308,4.731308v4.7313099C94.5,28.2143707,92.3709106,30.3434582,89.768692,30.3434582z M13.5,91.8504639h12.5852795L42.17173,66.2067719h0.5677567l16.0864525,25.643692h12.5852776L49.4106369,57.4538536 l20.5338669-31.8417034H57.2645988l-14.525116,23.6092281h-0.5677567L27.5519867,25.6121502H14.9667053l20.4392548,31.8417034 L13.5,91.8504639z" />
+        </vector>
+    </item>
     <item android:state_pressed="true">
         <layer-list>
+            <item android:drawable="@drawable/zn_button_bg" />
             <item>
-                <shape android:shape="rectangle">
-                    <solid android:color="@color/zn_pressed" />
-                </shape>
-            </item>
-            <item>
-                <bitmap android:gravity="center" android:src="@drawable/zn_b_tag_sup" />
-            </item>
-        </layer-list>
-    </item>
-    <item android:state_enabled="true">
-        <layer-list>
-            <item>
-                <bitmap android:gravity="center" android:src="@drawable/zn_b_tag_sup" />
+                <vector android:width="@dimen/tag_bar_icon" android:height="@dimen/tag_bar_icon" android:viewportWidth="108.0" android:viewportHeight="108.0">
+                    <path android:fillColor="@color/zn_colorControlNormal" android:pathData="M89.768692,30.3434582h-9.462616v4.7313099H94.5v4.731308H75.5747681v-9.4626179 c0-2.6022205,2.1290894-4.731308,4.731308-4.731308h9.462616v-4.7313099h-14.193924v-4.731308h14.193924 c2.6022186,0,4.731308,2.1290874,4.731308,4.731308v4.7313099C94.5,28.2143707,92.3709106,30.3434582,89.768692,30.3434582z M13.5,91.8504639h12.5852795L42.17173,66.2067719h0.5677567l16.0864525,25.643692h12.5852776L49.4106369,57.4538536 l20.5338669-31.8417034H57.2645988l-14.525116,23.6092281h-0.5677567L27.5519867,25.6121502H14.9667053l20.4392548,31.8417034 L13.5,91.8504639z" />
+                </vector>
             </item>
         </layer-list>
     </item>

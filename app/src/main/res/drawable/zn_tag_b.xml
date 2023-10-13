@@ -2,21 +2,17 @@
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:state_pressed="true">
         <layer-list>
+            <item android:drawable="@drawable/zn_button_bg" />
             <item>
-                <shape android:shape="rectangle">
-                    <solid android:color="@color/zn_pressed" />
-                </shape>
-            </item>
-            <item>
-                <bitmap android:gravity="center" android:src="@drawable/zn_b_tag_b" />
+                <vector android:width="@dimen/tag_bar_icon" android:height="@dimen/tag_bar_icon" android:viewportWidth="108.0" android:viewportHeight="108.0">
+                    <path android:fillColor="@color/zn_colorControlNormal" android:pathData="M72.6589279,52.7849998c5.6121445-3.8764305,9.5464325-10.2407112,9.5464325-16.1421432 C82.2053604,23.5671425,72.0803604,13.5,59.0625,13.5H22.9017849v81H63.633213 c12.0921364,0,21.4650002-9.8357162,21.4650002-21.9278564C85.0982132,63.7778587,80.1224976,56.2564316,72.6589279,52.7849998z M40.2589302,27.9642849h17.3571396c4.8021431,0,8.6785698,3.8764305,8.6785698,8.6785717s-3.8764267,8.6785736-8.6785698,8.6785736 H40.2589302V27.9642849z M60.5089302,80.0357132h-20.25V62.6785698h20.25c4.8021431,0,8.6785698,3.8764305,8.6785698,8.6785698 C69.1875,76.1592865,65.3110733,80.0357132,60.5089302,80.0357132z" />
+                </vector>
             </item>
         </layer-list>
     </item>
-    <item android:state_enabled="true">
-        <layer-list>
-            <item>
-                <bitmap android:gravity="center" android:src="@drawable/zn_b_tag_b" />
-            </item>
-        </layer-list>
+    <item android:state_pressed="false">
+        <vector android:width="@dimen/tag_bar_icon" android:height="@dimen/tag_bar_icon" android:viewportWidth="108.0" android:viewportHeight="108.0">
+            <path android:fillColor="@color/zn_colorControlNormal" android:pathData="M72.6589279,52.7849998c5.6121445-3.8764305,9.5464325-10.2407112,9.5464325-16.1421432 C82.2053604,23.5671425,72.0803604,13.5,59.0625,13.5H22.9017849v81H63.633213 c12.0921364,0,21.4650002-9.8357162,21.4650002-21.9278564C85.0982132,63.7778587,80.1224976,56.2564316,72.6589279,52.7849998z M40.2589302,27.9642849h17.3571396c4.8021431,0,8.6785698,3.8764305,8.6785698,8.6785717s-3.8764267,8.6785736-8.6785698,8.6785736 H40.2589302V27.9642849z M60.5089302,80.0357132h-20.25V62.6785698h20.25c4.8021431,0,8.6785698,3.8764305,8.6785698,8.6785698 C69.1875,76.1592865,65.3110733,80.0357132,60.5089302,80.0357132z" />
+        </vector>
     </item>
 </selector>

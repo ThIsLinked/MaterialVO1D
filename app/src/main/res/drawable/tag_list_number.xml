@@ -2,21 +2,17 @@
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:state_pressed="true">
         <layer-list>
+            <item android:drawable="@drawable/button_bg" />
             <item>
-                <shape android:shape="rectangle">
-                    <solid android:color="@color/pressed" />
-                </shape>
-            </item>
-            <item>
-                <bitmap android:gravity="center" android:src="@drawable/b_tag_list_number" />
+                <vector android:width="@dimen/tag_bar_icon" android:height="@dimen/tag_bar_icon" android:viewportWidth="108.0" android:viewportHeight="108.0">
+                    <path android:fillColor="@color/colorControlNormal" android:pathData="M13.5,75.3157883h8.5263157v2.1315765h-4.2631569v4.2631607h4.2631569v2.1315765H13.5v4.2631607h12.7894745V71.0526352H13.5 V75.3157883z M17.7631588,36.9473686h4.2631569V19.8947372H13.5v4.2631569h4.2631588V36.9473686z M13.5,49.7368431h7.6736832 L13.5,58.689476v3.8368416h12.7894745v-4.2631607h-7.6736851l7.6736851-8.9526329v-3.8368416H13.5V49.7368431z M34.8157883,24.1578941v8.5263176H94.5v-8.5263176H34.8157883z M34.8157883,83.8421021H94.5v-8.5263138H34.8157883V83.8421021z M34.8157883,58.2631569H94.5v-8.5263138H34.8157883V58.2631569z" />
+                </vector>
             </item>
         </layer-list>
     </item>
-    <item android:state_enabled="true">
-        <layer-list>
-            <item>
-                <bitmap android:gravity="center" android:src="@drawable/b_tag_list_number" />
-            </item>
-        </layer-list>
+    <item android:state_pressed="false">
+        <vector android:width="@dimen/tag_bar_icon" android:height="@dimen/tag_bar_icon" android:viewportWidth="108.0" android:viewportHeight="108.0">
+            <path android:fillColor="@color/colorControlNormal" android:pathData="M13.5,75.3157883h8.5263157v2.1315765h-4.2631569v4.2631607h4.2631569v2.1315765H13.5v4.2631607h12.7894745V71.0526352H13.5 V75.3157883z M17.7631588,36.9473686h4.2631569V19.8947372H13.5v4.2631569h4.2631588V36.9473686z M13.5,49.7368431h7.6736832 L13.5,58.689476v3.8368416h12.7894745v-4.2631607h-7.6736851l7.6736851-8.9526329v-3.8368416H13.5V49.7368431z M34.8157883,24.1578941v8.5263176H94.5v-8.5263176H34.8157883z M34.8157883,83.8421021H94.5v-8.5263138H34.8157883V83.8421021z M34.8157883,58.2631569H94.5v-8.5263138H34.8157883V58.2631569z" />
+        </vector>
     </item>
 </selector>

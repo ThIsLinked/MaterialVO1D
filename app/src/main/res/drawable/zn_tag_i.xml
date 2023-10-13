@@ -2,21 +2,17 @@
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:state_pressed="true">
         <layer-list>
+            <item android:drawable="@drawable/zn_button_bg" />
             <item>
-                <shape android:shape="rectangle">
-                    <solid android:color="@color/zn_pressed" />
-                </shape>
-            </item>
-            <item>
-                <bitmap android:gravity="center" android:src="@drawable/zn_b_tag_i" />
+                <vector android:width="@dimen/tag_bar_icon" android:height="@dimen/tag_bar_icon" android:viewportWidth="108.0" android:viewportHeight="108.0">
+                    <path android:fillColor="@color/zn_colorControlNormal" android:pathData="M42.4285698,13.5v17.3571434h12.7864304l-19.7871437,46.285717H19.2857151V94.5h46.2857132V77.1428604H52.7849998 l19.7871437-46.285717h16.1421432V13.5H42.4285698z" />
+                </vector>
             </item>
         </layer-list>
     </item>
-    <item android:state_enabled="true">
-        <layer-list>
-            <item>
-                <bitmap android:gravity="center" android:src="@drawable/zn_b_tag_i" />
-            </item>
-        </layer-list>
+    <item android:state_pressed="false">
+        <vector android:width="@dimen/tag_bar_icon" android:height="@dimen/tag_bar_icon" android:viewportWidth="108.0" android:viewportHeight="108.0">
+            <path android:fillColor="@color/zn_colorControlNormal" android:pathData="M42.4285698,13.5v17.3571434h12.7864304l-19.7871437,46.285717H19.2857151V94.5h46.2857132V77.1428604H52.7849998 l19.7871437-46.285717h16.1421432V13.5H42.4285698z" />
+        </vector>
     </item>
 </selector>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- -->
+    <item type="drawable" name="ic_thumb_down">@drawable/ic_thumb_c_down</item>
+    <item type="drawable" name="ic_thumb_up">@drawable/ic_thumb_c_up</item>
+    <item type="drawable" name="zn_ic_thumb_down">@drawable/ic_thumb_down</item>
+    <item type="drawable" name="zn_ic_thumb_up">@drawable/ic_thumb_up</item>
+    <!-- -->
+    <item type="drawable" name="zn_ic_protected_src">@drawable/ic_protected_src</item>
+</resources>

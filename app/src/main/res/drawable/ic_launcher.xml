@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108.0dip"
+    android:height="108.0dip"
+    android:viewportWidth="108.0"
+    android:viewportHeight="108.0">
+    <path
+        android:name="Background"
+        android:fillColor="@color/ic_launcher_background"
+        android:pathData="M78.3,102.6H29.7c-13.42,0 -24.3,-10.88 -24.3,-24.3V29.7c0,-13.42 10.88,-24.3 24.3,-24.3h48.6c13.42,0 24.3,10.88 24.3,24.3v48.6C102.6,91.72 91.72,102.6 78.3,102.6z" />
+    <group
+        android:name="Foreground"
+        android:translateY="2.0">
+        <path
+            android:fillAlpha="0.5"
+            android:fillColor="@color/ic_launcher_foreground_1"
+            android:pathData="M47.25,55.88l2.83,4.76l10.25,-17.76c1.37,-2.37 3.73,-4 6.44,-4.43l4.8,-0.76l3.22,-5.4L63.74,34.03c-2.71,0.43 -5.07,2.05 -6.44,4.43L47.25,55.88z" />
+        <path
+            android:fillColor="@color/ic_launcher_foreground_2"
+            android:pathData="M74.79,32.29L60.76,55.88L50.7,38.46c-1.37,-2.37 -3.73,-4 -6.44,-4.43L27,31.3l27.01,45.39L81,31.32L74.79,32.29zM54.01,67.25L36.44,37.7l4.8,0.76c2.71,0.43 5.07,2.05 6.44,4.43l10.25,17.76L54.01,67.25z" />
+    </group>
+</vector>

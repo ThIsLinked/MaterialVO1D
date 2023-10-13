@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="@dimen/nav_drawer_icon"
+    android:height="@dimen/nav_drawer_icon"
+    android:viewportWidth="108.0"
+    android:viewportHeight="108.0">
+    <path
+        android:fillColor="@color/zn_colorAccent"
+        android:pathData="M91.9110413,22.3672657l-6.2533646-6.2533684c-3.4593124-3.4593105-9.0917816-3.4593105-12.5510941,0l-6.2533646,6.2533684 l-6.2533722,6.2533684L13.5,75.6761246v18.8044586h18.8044586l47.055481-47.0554886l6.2533798-6.2533684l6.2533646-6.2533684 C95.3703461,31.4146976,95.3703461,25.8265781,91.9110413,22.3672657z M28.623394,85.6105576h-6.2533684V79.357193 l44.4388428-44.4831886l6.2533722,6.2533646L28.623394,85.6105576z" />
+</vector>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:width="18dp"
+        android:height="18dp"
+        android:gravity="center">
+        <bitmap
+            android:src="@drawable/zn_ic_protected_src"
+            android:tint="@color/zn_colorControlNormal" />
+    </item>
+</layer-list>

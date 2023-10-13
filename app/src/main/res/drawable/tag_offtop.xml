@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:state_pressed="false">
-        <vector android:width="@dimen/tag_bar_icon" android:height="@dimen/tag_bar_icon" android:viewportWidth="108.0" android:viewportHeight="108.0">
+        <vector android:width="24.0dip" android:height="24.0dip" android:viewportWidth="108.0" android:viewportHeight="108.0">
             <path android:fillColor="@color/colorControlNormal" android:pathData="M70.1999969,25.6499996v32.4000015c0,4.4550018-3.6449966,8.1000023-8.0999985,8.1000023H37.7999992 c-4.454998,0-8.0999985-3.6450005-8.0999985-8.1000023V25.6499996H70.1999969 M86.4000015,17.5499992H21.6000004v40.5 c0,8.9505043,7.2495003,16.2000008,16.1999989,16.2000008h24.2999992c8.9505005,0,16.2000046-7.2494965,16.2000046-16.2000008 V45.9000015h8.0999985c4.4954987,0,8.0999985-3.6045036,8.0999985-8.1000023V25.6499996 C94.5,21.1544991,90.8955002,17.5499992,86.4000015,17.5499992z M78.3000031,37.7999992V25.6499996h8.0999985v12.1499996H78.3000031 z M86.4000015,82.3499985H13.5v8.0999985h72.9000015V82.3499985z" />
         </vector>
     </item>
@@ -9,7 +9,7 @@
         <layer-list>
             <item android:drawable="@drawable/button_bg" />
             <item>
-                <vector android:width="@dimen/tag_bar_icon" android:height="@dimen/tag_bar_icon" android:viewportWidth="108.0" android:viewportHeight="108.0">
+                <vector android:width="24.0dip" android:height="24.0dip" android:viewportWidth="108.0" android:viewportHeight="108.0">
                     <path android:fillColor="@color/colorControlNormal" android:pathData="M70.1999969,25.6499996v32.4000015c0,4.4550018-3.6449966,8.1000023-8.0999985,8.1000023H37.7999992 c-4.454998,0-8.0999985-3.6450005-8.0999985-8.1000023V25.6499996H70.1999969 M86.4000015,17.5499992H21.6000004v40.5 c0,8.9505043,7.2495003,16.2000008,16.1999989,16.2000008h24.2999992c8.9505005,0,16.2000046-7.2494965,16.2000046-16.2000008 V45.9000015h8.0999985c4.4954987,0,8.0999985-3.6045036,8.0999985-8.1000023V25.6499996 C94.5,21.1544991,90.8955002,17.5499992,86.4000015,17.5499992z M78.3000031,37.7999992V25.6499996h8.0999985v12.1499996H78.3000031 z M86.4000015,82.3499985H13.5v8.0999985h72.9000015V82.3499985z" />
                 </vector>
             </item>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:state_pressed="false">
-        <vector android:width="@dimen/tag_bar_icon" android:height="@dimen/tag_bar_icon" android:viewportWidth="108.0" android:viewportHeight="108.0">
+        <vector android:width="24.0dip" android:height="24.0dip" android:viewportWidth="108.0" android:viewportHeight="108.0">
             <path android:fillColor="@color/zn_colorControlNormal" android:pathData="M39.078949,22.0263157v12.7894726h21.3157883v51.1578979h12.7894745V34.8157883H94.5V22.0263157H39.078949z M13.5,56.1315804h12.7894745v29.8421059H39.078949V56.1315804h12.7894707V43.3421059H13.5V56.1315804z" />
         </vector>
     </item>
@@ -9,7 +9,7 @@
         <layer-list>
             <item android:drawable="@drawable/zn_button_bg" />
             <item>
-                <vector android:width="@dimen/tag_bar_icon" android:height="@dimen/tag_bar_icon" android:viewportWidth="108.0" android:viewportHeight="108.0">
+                <vector android:width="24.0dip" android:height="24.0dip" android:viewportWidth="108.0" android:viewportHeight="108.0">
                     <path android:fillColor="@color/zn_colorControlNormal" android:pathData="M39.078949,22.0263157v12.7894726h21.3157883v51.1578979h12.7894745V34.8157883H94.5V22.0263157H39.078949z M13.5,56.1315804h12.7894745v29.8421059H39.078949V56.1315804h12.7894707V43.3421059H13.5V56.1315804z" />
                 </vector>
             </item>

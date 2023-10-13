@@ -4,14 +4,14 @@
         <layer-list>
             <item android:drawable="@drawable/zn_button_bg" />
             <item>
-                <vector android:width="@dimen/tag_bar_icon" android:height="@dimen/tag_bar_icon" android:viewportWidth="108.0" android:viewportHeight="108.0">
+                <vector android:width="24.0dip" android:height="24.0dip" android:viewportWidth="108.0" android:viewportHeight="108.0">
                     <path android:fillColor="@color/zn_colorControlNormal" android:pathData="M85.5,13.5h-63c-4.9949951,0-9,4.0499878-9,9v63c0,4.9500122,4.0050049,9,9,9h63c4.9500122,0,9-4.0499878,9-9v-63 C94.5,17.5499878,90.4500122,13.5,85.5,13.5z M85.5,85.5h-63v-63h63V85.5z M34.3676682,30.375h8.9090538v20.2592049h0.5272751L61.0938454,30.375h10.7574577v0.5282555L54.7586937,50.4369659 l18.8736382,26.660759V77.625h-10.888298L48.6217613,57.497612l-5.3450394,6.2697296V77.625h-8.9090538V30.375z" />
                 </vector>
             </item>
         </layer-list>
     </item>
     <item android:state_pressed="false">
-        <vector android:width="@dimen/tag_bar_icon" android:height="@dimen/tag_bar_icon" android:viewportWidth="108.0" android:viewportHeight="108.0">
+        <vector android:width="24.0dip" android:height="24.0dip" android:viewportWidth="108.0" android:viewportHeight="108.0">
             <path android:fillColor="@color/zn_colorControlNormal" android:pathData="M85.5,13.5h-63c-4.9949951,0-9,4.0499878-9,9v63c0,4.9500122,4.0050049,9,9,9h63c4.9500122,0,9-4.0499878,9-9v-63 C94.5,17.5499878,90.4500122,13.5,85.5,13.5z M85.5,85.5h-63v-63h63V85.5z M34.3676682,30.375h8.9090538v20.2592049h0.5272751L61.0938454,30.375h10.7574577v0.5282555L54.7586937,50.4369659 l18.8736382,26.660759V77.625h-10.888298L48.6217613,57.497612l-5.3450394,6.2697296V77.625h-8.9090538V30.375z" />
         </vector>
     </item>

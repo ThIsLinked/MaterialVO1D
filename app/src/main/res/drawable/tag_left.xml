@@ -4,14 +4,14 @@
         <layer-list>
             <item android:drawable="@drawable/button_bg" />
             <item>
-                <vector android:width="@dimen/tag_bar_icon" android:height="@dimen/tag_bar_icon" android:viewportWidth="108.0" android:viewportHeight="108.0">
+                <vector android:width="24.0dip" android:height="24.0dip" android:viewportWidth="108.0" android:viewportHeight="108.0">
                     <path android:fillColor="@color/colorControlNormal" android:pathData="M67.5,67.5h-54v9h54V67.5z M67.5,31.5h-54v9h54V31.5z M13.5,58.5h81v-9h-81V58.5z M13.5,94.5h81v-9h-81V94.5z M13.5,13.5v9 h81v-9H13.5z" />
                 </vector>
             </item>
         </layer-list>
     </item>
     <item android:state_pressed="false">
-        <vector android:width="@dimen/tag_bar_icon" android:height="@dimen/tag_bar_icon" android:viewportWidth="108.0" android:viewportHeight="108.0">
+        <vector android:width="24.0dip" android:height="24.0dip" android:viewportWidth="108.0" android:viewportHeight="108.0">
             <path android:fillColor="@color/colorControlNormal" android:pathData="M67.5,67.5h-54v9h54V67.5z M67.5,31.5h-54v9h54V31.5z M13.5,58.5h81v-9h-81V58.5z M13.5,94.5h81v-9h-81V94.5z M13.5,13.5v9 h81v-9H13.5z" />
         </vector>
     </item>

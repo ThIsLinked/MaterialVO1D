@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Material VO1D</string>
-    <string name="app_versionName">1.0</string>
+    <string name="app_versionName">1.0-canary</string>
     <string name="description">По стилю Material Design...</string>
 </resources>

@@ -4,5 +4,43 @@
     <dimen name="default_radius_edge">24.0dip</dimen>
     <!-- -->
     <dimen name="nav_drawer_icon">@dimen/icon_size_24</dimen>
-    <dimen name="tag_bar_icon">@dimen/icon_size_24</dimen>
+    <!-- -->
+    <dimen name="tag_bar_alignCenter_padding">11.0dip</dimen>
+    <dimen name="tag_bar_alignLeft_padding">11.0dip</dimen>
+    <dimen name="tag_bar_alignRight_padding">11.0dip</dimen>
+    <dimen name="tag_bar_bold_padding">12.0dip</dimen>
+    <!-- -->
+    <dimen name="tag_bar_clear_paddingBottom">9.0dip</dimen>
+    <dimen name="tag_bar_clear_paddingEnd">8.0dip</dimen>
+    <dimen name="tag_bar_clear_paddingStart">8.0dip</dimen>
+    <dimen name="tag_bar_clear_paddingTop">7.0dip</dimen>
+    <!-- -->
+    <dimen name="tag_bar_code_padding">10.0dip</dimen>
+    <dimen name="tag_bar_color_padding">11.0dip</dimen>
+    <dimen name="tag_bar_ex_padding">11.0dip</dimen>
+    <dimen name="tag_bar_hide_padding">9.0dip</dimen>
+    <dimen name="tag_bar_italic_padding">12.0dip</dimen>
+    <dimen name="tag_bar_kur_padding">11.0dip</dimen>
+    <dimen name="tag_bar_link_padding">8.0dip</dimen>
+    <dimen name="tag_bar_listNumber_padding">9.0dip</dimen>
+    <dimen name="tag_bar_list_padding">9.0dip</dimen>
+    <dimen name="tag_bar_mod_padding">11.0dip</dimen>
+    <dimen name="tag_bar_offtop_padding">10.0dip</dimen>
+    <dimen name="tag_bar_quote_padding">9.0dip</dimen>
+    <dimen name="tag_bar_size_padding">10.0dip</dimen>
+    <dimen name="tag_bar_spoilerName_padding">11.0dip</dimen>
+    <dimen name="tag_bar_spoiler_padding">11.0dip</dimen>
+    <dimen name="tag_bar_strike_padding">10.0dip</dimen>
+    <!-- -->
+    <dimen name="tag_bar_subscript_paddingBottom">8.0dip</dimen>
+    <dimen name="tag_bar_subscript_paddingEnd">9.0dip</dimen>
+    <dimen name="tag_bar_subscript_paddingStart">9.0dip</dimen>
+    <dimen name="tag_bar_subscript_paddingTop">10.0dip</dimen>
+    <!-- -->
+    <dimen name="tag_bar_supscript_paddingBottom">10.0dip</dimen>
+    <dimen name="tag_bar_supscript_paddingEnd">9.0dip</dimen>
+    <dimen name="tag_bar_supscript_paddingStart">9.0dip</dimen>
+    <dimen name="tag_bar_supscript_paddingTop">8.0dip</dimen>
+    <!-- -->
+    <dimen name="tag_bar_underline_padding">11.0dip</dimen>
 </resources>

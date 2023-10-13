@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:state_pressed="false">
-        <vector android:width="24.0dip" android:height="24.0dip" android:viewportWidth="108.0" android:viewportHeight="108.0">
-            <path android:fillColor="@color/zn_colorControlNormal" android:pathData="M54,76.5c14.8949966,0,27-12.1050034,27-27v-36H69.75v36c0,8.6850014-7.0649986,15.75-15.75,15.75 S38.25,58.1850014,38.25,49.5v-36H27v36C27,64.3949966,39.1050034,76.5,54,76.5z M22.5,85.5v9h63v-9H22.5z" />
-        </vector>
+        <layer-list>
+            <item android:bottom="@dimen/tag_bar_underline_padding" android:end="@dimen/tag_bar_underline_padding" android:start="@dimen/tag_bar_underline_padding" android:top="@dimen/tag_bar_underline_padding">
+                <vector android:width="108.0dip" android:height="108.0dip" android:viewportWidth="108.0" android:viewportHeight="108.0">
+                    <path android:fillColor="@color/zn_colorControlNormal" android:pathData="M54,76.5c14.8949966,0,27-12.1050034,27-27v-36H69.75v36c0,8.6850014-7.0649986,15.75-15.75,15.75 S38.25,58.1850014,38.25,49.5v-36H27v36C27,64.3949966,39.1050034,76.5,54,76.5z M22.5,85.5v9h63v-9H22.5z" />
+                </vector>
+            </item>
+        </layer-list>
     </item>
     <item android:state_pressed="true">
         <layer-list>
             <item android:drawable="@drawable/zn_button_bg" />
-            <item>
-                <vector android:width="24.0dip" android:height="24.0dip" android:viewportWidth="108.0" android:viewportHeight="108.0">
+            <item android:bottom="@dimen/tag_bar_underline_padding" android:end="@dimen/tag_bar_underline_padding" android:start="@dimen/tag_bar_underline_padding" android:top="@dimen/tag_bar_underline_padding">
+                <vector android:width="108.0dip" android:height="108.0dip" android:viewportWidth="108.0" android:viewportHeight="108.0">
                     <path android:fillColor="@color/zn_colorControlNormal" android:pathData="M54,76.5c14.8949966,0,27-12.1050034,27-27v-36H69.75v36c0,8.6850014-7.0649986,15.75-15.75,15.75 S38.25,58.1850014,38.25,49.5v-36H27v36C27,64.3949966,39.1050034,76.5,54,76.5z M22.5,85.5v9h63v-9H22.5z" />
                 </vector>
             </item>

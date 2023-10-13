@@ -1,18 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:state_pressed="true">
+    <item android:state_pressed="false">
         <layer-list>
-            <item android:drawable="@drawable/zn_button_bg" />
-            <item>
-                <vector android:width="24.0dip" android:height="24.0dip" android:viewportWidth="108.0" android:viewportHeight="108.0">
+            <item android:bottom="@dimen/tag_bar_listNumber_padding" android:end="@dimen/tag_bar_listNumber_padding" android:start="@dimen/tag_bar_listNumber_padding" android:top="@dimen/tag_bar_listNumber_padding">
+                <vector android:width="108.0dip" android:height="108.0dip" android:viewportWidth="108.0" android:viewportHeight="108.0">
                     <path android:fillColor="@color/zn_colorControlNormal" android:pathData="M13.5,75.3157883h8.5263157v2.1315765h-4.2631569v4.2631607h4.2631569v2.1315765H13.5v4.2631607h12.7894745V71.0526352H13.5 V75.3157883z M17.7631588,36.9473686h4.2631569V19.8947372H13.5v4.2631569h4.2631588V36.9473686z M13.5,49.7368431h7.6736832 L13.5,58.689476v3.8368416h12.7894745v-4.2631607h-7.6736851l7.6736851-8.9526329v-3.8368416H13.5V49.7368431z M34.8157883,24.1578941v8.5263176H94.5v-8.5263176H34.8157883z M34.8157883,83.8421021H94.5v-8.5263138H34.8157883V83.8421021z M34.8157883,58.2631569H94.5v-8.5263138H34.8157883V58.2631569z" />
                 </vector>
             </item>
         </layer-list>
     </item>
-    <item android:state_pressed="false">
-        <vector android:width="24.0dip" android:height="24.0dip" android:viewportWidth="108.0" android:viewportHeight="108.0">
-            <path android:fillColor="@color/zn_colorControlNormal" android:pathData="M13.5,75.3157883h8.5263157v2.1315765h-4.2631569v4.2631607h4.2631569v2.1315765H13.5v4.2631607h12.7894745V71.0526352H13.5 V75.3157883z M17.7631588,36.9473686h4.2631569V19.8947372H13.5v4.2631569h4.2631588V36.9473686z M13.5,49.7368431h7.6736832 L13.5,58.689476v3.8368416h12.7894745v-4.2631607h-7.6736851l7.6736851-8.9526329v-3.8368416H13.5V49.7368431z M34.8157883,24.1578941v8.5263176H94.5v-8.5263176H34.8157883z M34.8157883,83.8421021H94.5v-8.5263138H34.8157883V83.8421021z M34.8157883,58.2631569H94.5v-8.5263138H34.8157883V58.2631569z" />
-        </vector>
+    <item android:state_pressed="true">
+        <layer-list>
+            <item android:drawable="@drawable/zn_button_bg" />
+            <item android:bottom="@dimen/tag_bar_listNumber_padding" android:end="@dimen/tag_bar_listNumber_padding" android:start="@dimen/tag_bar_listNumber_padding" android:top="@dimen/tag_bar_listNumber_padding">
+                <vector android:width="108.0dip" android:height="108.0dip" android:viewportWidth="108.0" android:viewportHeight="108.0">
+                    <path android:fillColor="@color/zn_colorControlNormal" android:pathData="M13.5,75.3157883h8.5263157v2.1315765h-4.2631569v4.2631607h4.2631569v2.1315765H13.5v4.2631607h12.7894745V71.0526352H13.5 V75.3157883z M17.7631588,36.9473686h4.2631569V19.8947372H13.5v4.2631569h4.2631588V36.9473686z M13.5,49.7368431h7.6736832 L13.5,58.689476v3.8368416h12.7894745v-4.2631607h-7.6736851l7.6736851-8.9526329v-3.8368416H13.5V49.7368431z M34.8157883,24.1578941v8.5263176H94.5v-8.5263176H34.8157883z M34.8157883,83.8421021H94.5v-8.5263138H34.8157883V83.8421021z M34.8157883,58.2631569H94.5v-8.5263138H34.8157883V58.2631569z" />
+                </vector>
+            </item>
+        </layer-list>
     </item>
 </selector>

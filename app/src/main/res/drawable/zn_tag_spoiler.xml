@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:state_pressed="false">
-        <vector android:width="24.0dip" android:height="24.0dip" android:viewportWidth="108.0" android:viewportHeight="108.0">
-            <path android:fillColor="@color/zn_colorControlNormal" android:pathData="M85.5,13.5h-63c-4.9949951,0-9,4.0499878-9,9v63c0,4.9500122,4.0050049,9,9,9h63c4.9500122,0,9-4.0499878,9-9v-63 C94.5,17.5499878,90.4500122,13.5,85.5,13.5z M85.5,85.5h-63v-63h63V85.5z M72.0731277,39.4115639L54,57.4453125L35.9268761,39.4115639L30.375,44.9634361L54,68.5884399l23.625-23.6250038 L72.0731277,39.4115639z" />
-        </vector>
+        <layer-list>
+            <item android:bottom="@dimen/tag_bar_spoiler_padding" android:end="@dimen/tag_bar_spoiler_padding" android:start="@dimen/tag_bar_spoiler_padding" android:top="@dimen/tag_bar_spoiler_padding">
+                <vector android:width="108.0dip" android:height="108.0dip" android:viewportWidth="108.0" android:viewportHeight="108.0">
+                    <path android:fillColor="@color/zn_colorControlNormal" android:pathData="M85.5,13.5h-63c-4.9949951,0-9,4.0499878-9,9v63c0,4.9500122,4.0050049,9,9,9h63c4.9500122,0,9-4.0499878,9-9v-63 C94.5,17.5499878,90.4500122,13.5,85.5,13.5z M85.5,85.5h-63v-63h63V85.5z M72.0731277,39.4115639L54,57.4453125L35.9268761,39.4115639L30.375,44.9634361L54,68.5884399l23.625-23.6250038 L72.0731277,39.4115639z" />
+                </vector>
+            </item>
+        </layer-list>
     </item>
     <item android:state_pressed="true">
         <layer-list>
             <item android:drawable="@drawable/zn_button_bg" />
-            <item>
-                <vector android:width="24.0dip" android:height="24.0dip" android:viewportWidth="108.0" android:viewportHeight="108.0">
+            <item android:bottom="@dimen/tag_bar_spoiler_padding" android:end="@dimen/tag_bar_spoiler_padding" android:start="@dimen/tag_bar_spoiler_padding" android:top="@dimen/tag_bar_spoiler_padding">
+                <vector android:width="108.0dip" android:height="108.0dip" android:viewportWidth="108.0" android:viewportHeight="108.0">
                     <path android:fillColor="@color/zn_colorControlNormal" android:pathData="M85.5,13.5h-63c-4.9949951,0-9,4.0499878-9,9v63c0,4.9500122,4.0050049,9,9,9h63c4.9500122,0,9-4.0499878,9-9v-63 C94.5,17.5499878,90.4500122,13.5,85.5,13.5z M85.5,85.5h-63v-63h63V85.5z M72.0731277,39.4115639L54,57.4453125L35.9268761,39.4115639L30.375,44.9634361L54,68.5884399l23.625-23.6250038 L72.0731277,39.4115639z" />
                 </vector>
             </item>

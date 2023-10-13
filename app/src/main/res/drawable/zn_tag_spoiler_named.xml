@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:state_pressed="false">
-        <vector android:width="24.0dip" android:height="24.0dip" android:viewportWidth="108.0" android:viewportHeight="108.0">
-            <path android:fillColor="@color/zn_colorControlNormal" android:pathData="M62.875,85.5H22.5v-63h63v35.6499634c3,0,6,0,9,0V22.5c0-4.9500122-4.0499878-9-9-9h-63c-4.9949951,0-9,4.0499878-9,9v63 c0,4.9500122,4.0050049,9,9,9h40.375V85.5z M72.0731277,39.4115639L54,57.4453125L35.9268761,39.4115639L30.375,44.9634361L54,68.5884399l23.625-23.6250038 L72.0731277,39.4115639z M89.7750015,66.1500015H75.5999985c-2.5986938,0-4.7249985,2.1260147-4.7249985,4.7249985V94.5h7.0875015v-7.0875015 h9.4499969V94.5H94.5V70.875C94.5,68.2760162,92.3736954,66.1500015,89.7750015,66.1500015z M87.4124985,80.3249969h-9.4499969 v-7.0874939h9.4499969V80.3249969z" />
-        </vector>
+        <layer-list>
+            <item android:bottom="@dimen/tag_bar_spoilerName_padding" android:end="@dimen/tag_bar_spoilerName_padding" android:start="@dimen/tag_bar_spoilerName_padding" android:top="@dimen/tag_bar_spoilerName_padding">
+                <vector android:width="108.0dip" android:height="108.0dip" android:viewportWidth="108.0" android:viewportHeight="108.0">
+                    <path android:fillColor="@color/zn_colorControlNormal" android:pathData="M62.875,85.5H22.5v-63h63v35.6499634c3,0,6,0,9,0V22.5c0-4.9500122-4.0499878-9-9-9h-63c-4.9949951,0-9,4.0499878-9,9v63 c0,4.9500122,4.0050049,9,9,9h40.375V85.5z M72.0731277,39.4115639L54,57.4453125L35.9268761,39.4115639L30.375,44.9634361L54,68.5884399l23.625-23.6250038 L72.0731277,39.4115639z M89.7750015,66.1500015H75.5999985c-2.5986938,0-4.7249985,2.1260147-4.7249985,4.7249985V94.5h7.0875015v-7.0875015 h9.4499969V94.5H94.5V70.875C94.5,68.2760162,92.3736954,66.1500015,89.7750015,66.1500015z M87.4124985,80.3249969h-9.4499969 v-7.0874939h9.4499969V80.3249969z" />
+                </vector>
+            </item>
+        </layer-list>
     </item>
     <item android:state_pressed="true">
         <layer-list>
             <item android:drawable="@drawable/zn_button_bg" />
-            <item>
-                <vector android:width="24.0dip" android:height="24.0dip" android:viewportWidth="108.0" android:viewportHeight="108.0">
+            <item android:bottom="@dimen/tag_bar_spoilerName_padding" android:end="@dimen/tag_bar_spoilerName_padding" android:start="@dimen/tag_bar_spoilerName_padding" android:top="@dimen/tag_bar_spoilerName_padding">
+                <vector android:width="108.0dip" android:height="108.0dip" android:viewportWidth="108.0" android:viewportHeight="108.0">
                     <path android:fillColor="@color/zn_colorControlNormal" android:pathData="M62.875,85.5H22.5v-63h63v35.6499634c3,0,6,0,9,0V22.5c0-4.9500122-4.0499878-9-9-9h-63c-4.9949951,0-9,4.0499878-9,9v63 c0,4.9500122,4.0050049,9,9,9h40.375V85.5z M72.0731277,39.4115639L54,57.4453125L35.9268761,39.4115639L30.375,44.9634361L54,68.5884399l23.625-23.6250038 L72.0731277,39.4115639z M89.7750015,66.1500015H75.5999985c-2.5986938,0-4.7249985,2.1260147-4.7249985,4.7249985V94.5h7.0875015v-7.0875015 h9.4499969V94.5H94.5V70.875C94.5,68.2760162,92.3736954,66.1500015,89.7750015,66.1500015z M87.4124985,80.3249969h-9.4499969 v-7.0874939h9.4499969V80.3249969z" />
                 </vector>
             </item>

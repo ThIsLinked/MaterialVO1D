@@ -24,15 +24,17 @@ plugins {
 }
 
 android {
-    namespace = "ru.fourpda.skins.sample"
+    //namespace = "ru.fourpda.skins.materialvoid"
+    namespace = "ru.fourpda.skins.FadePlus"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "ru.fourpda.skins.sample"
-        minSdk = 10
+        //applicationId = "ru.fourpda.skins.materialvoid"
+        applicationId = "ru.fourpda.skins.FadePlus"
+        minSdk = 21
         targetSdk = 28
 
-        versionCode = 10942
+        versionCode = 10942001
         versionName = "@string/app_versionName"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"

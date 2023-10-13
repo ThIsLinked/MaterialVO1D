@@ -1,4 +1,4 @@
 
-rootProject.name = "SampleSkin4PDA v1.9.42 (10942)"
+rootProject.name = "Material VO1D v1.0 (10942001)"
 
 include(":app")

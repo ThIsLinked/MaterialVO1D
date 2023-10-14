@@ -1,13 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <item name="zn_ic_zero" type="drawable">@drawable/ic_zero</item>
     <!-- -->
-    <item type="drawable" name="ic_thumb_c_down">@drawable/ic_thumb_down</item>
-    <item type="drawable" name="ic_thumb_c_up">@drawable/ic_thumb_up</item>
-    <item type="drawable" name="zn_ic_thumb_c_down">@drawable/zn_ic_thumb_down</item>
-    <item type="drawable" name="zn_ic_thumb_c_up">@drawable/zn_ic_thumb_up</item>
-    <!-- -->
-    <item type="drawable" name="zn_ic_protected_src">@drawable/ic_protected_src</item>
-    <!-- -->
-    <item type="drawable" name="zn_ic_addbox">@drawable/ic_addbox</item>
-    <item type="drawable" name="zn_ic_removebox">@drawable/ic_removebox</item>
+    <item name="zn_ic_protected_src" type="drawable">@drawable/ic_protected_src</item>
 </resources>

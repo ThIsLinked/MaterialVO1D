@@ -20,7 +20,7 @@
 
 # Благодарности
 
-* [eXense](https://4pda.to/forum/index.php?showuser=622242) – за VO!D;
+* eXense ([4PDA](https://4pda.to/forum/index.php?showuser=622242)) – за VO!D;
 * [Google Fonts](https://fonts.google.com/icons) – репо иконок в стиле Material Design;
 * jenibek (Никита Михалыч) ([4PDA](https://4pda.to/forum/index.php?showuser=144428)) – Тестер невидимых мне объектов, таких как вставка модераторских тэгов и символ «Только чтение»<a href="https://github.com/ThIsLinked/MaterialVO1D#tooltip_post_is_read_only"><sup>[1]</sup></a>;
 * tigr1234566 ([Telegram](https://t.me/tommyhellatigr), [4PDA](https://4pda.to/forum/index.php?showuser=6432902)) – Тестер динамических цветов;

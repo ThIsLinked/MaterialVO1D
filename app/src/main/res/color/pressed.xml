@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <!--<item android:alpha="0.25" android:color="@color/material_grey_600" />-->
-    <item android:alpha="1.0" android:color="@color/material_red_a700" />
+    <item android:alpha="@dimen/pressed_opacity_general" android:color="@color/material_yellow_a700" />
 </selector>

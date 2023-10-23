@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
-    <item>
+
+    <item android:id="@+id/layer_alignment">
         <shape
             android:antialias="@bool/antialias_general"
             android:dither="@bool/dither_general"
@@ -9,7 +10,9 @@
             <solid android:color="@color/zn_main_bg" />
         </shape>
     </item>
+
     <item
+        android:id="@+id/layer_background"
         android:bottom="@dimen/button_start_padding"
         android:left="@dimen/button_start_padding"
         android:right="@dimen/button_start_padding"
@@ -21,11 +24,12 @@
                     android:dither="@bool/dither_general"
                     android:filter="@bool/filter_general"
                     android:shape="rectangle">
-                    <corners android:radius="@dimen/radius_edge_large" />
+                    <corners android:radius="@dimen/radius_edge_infinity" />
                     <solid android:color="@color/zn_colorAccent" />
                 </shape>
             </item>
         </ripple>
     </item>
+
 </layer-list>
 

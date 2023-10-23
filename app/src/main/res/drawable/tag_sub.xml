@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:state_pressed="false">
-        <layer-list>
-            <item android:bottom="@dimen/tag_bar_subscript_paddingBottom" android:end="@dimen/tag_bar_subscript_paddingEnd" android:start="@dimen/tag_bar_subscript_paddingStart" android:top="@dimen/tag_bar_subscript_paddingTop">
-                <vector android:width="108.0dip" android:height="108.0dip" android:viewportWidth="108.0" android:viewportHeight="108.0">
-                    <path android:fillColor="@color/colorControlNormal" android:pathData="M89.768692,82.3878479h-9.462616v4.731308H94.5v4.731308H75.5747681v-9.462616 c0-2.602211,2.1290894-4.731308,4.731308-4.731308h9.462616v-4.731308h-14.193924v-4.731308h14.193924 c2.6022186,0,4.731308,2.1290894,4.731308,4.731308v4.731308C94.5,80.2587585,92.3709106,82.3878479,89.768692,82.3878479z M13.5,82.3878479h12.5852795L42.17173,56.7441597h0.5677567l16.0864525,25.6436882h12.5852776L49.4106369,47.9912376 l20.5338669-31.8417053H57.2645988l-14.525116,23.60923h-0.5677567l-14.6197395-23.60923H14.9667053l20.4392548,31.8417053 L13.5,82.3878479z" />
-                </vector>
-            </item>
-        </layer-list>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/layer_background"
+        android:drawable="@drawable/button_bg" />
+    <item
+        android:id="@+id/layer_foreground"
+        android:bottom="@dimen/tag_bar_subscript_paddingBottom"
+        android:end="@dimen/tag_bar_subscript_paddingEnd"
+        android:start="@dimen/tag_bar_subscript_paddingStart"
+        android:top="@dimen/tag_bar_subscript_paddingTop">
+        <vector
+            android:width="108.0dip"
+            android:height="108.0dip"
+            android:viewportWidth="108.0"
+            android:viewportHeight="108.0">
+            <path
+                android:fillColor="@color/colorControlNormal"
+                android:pathData="M89.768692,82.3878479h-9.462616v4.731308H94.5v4.731308H75.5747681v-9.462616 c0-2.602211,2.1290894-4.731308,4.731308-4.731308h9.462616v-4.731308h-14.193924v-4.731308h14.193924 c2.6022186,0,4.731308,2.1290894,4.731308,4.731308v4.731308C94.5,80.2587585,92.3709106,82.3878479,89.768692,82.3878479z M13.5,82.3878479h12.5852795L42.17173,56.7441597h0.5677567l16.0864525,25.6436882h12.5852776L49.4106369,47.9912376 l20.5338669-31.8417053H57.2645988l-14.525116,23.60923h-0.5677567l-14.6197395-23.60923H14.9667053l20.4392548,31.8417053 L13.5,82.3878479z" />
+        </vector>
     </item>
-    <item android:state_pressed="true">
-        <layer-list>
-            <item android:drawable="@drawable/button_bg" />
-            <item android:bottom="@dimen/tag_bar_subscript_paddingBottom" android:end="@dimen/tag_bar_subscript_paddingEnd" android:start="@dimen/tag_bar_subscript_paddingStart" android:top="@dimen/tag_bar_subscript_paddingTop">
-                <vector android:width="108.0dip" android:height="108.0dip" android:viewportWidth="108.0" android:viewportHeight="108.0">
-                    <path android:fillColor="@color/colorControlNormal" android:pathData="M89.768692,82.3878479h-9.462616v4.731308H94.5v4.731308H75.5747681v-9.462616 c0-2.602211,2.1290894-4.731308,4.731308-4.731308h9.462616v-4.731308h-14.193924v-4.731308h14.193924 c2.6022186,0,4.731308,2.1290894,4.731308,4.731308v4.731308C94.5,80.2587585,92.3709106,82.3878479,89.768692,82.3878479z M13.5,82.3878479h12.5852795L42.17173,56.7441597h0.5677567l16.0864525,25.6436882h12.5852776L49.4106369,47.9912376 l20.5338669-31.8417053H57.2645988l-14.525116,23.60923h-0.5677567l-14.6197395-23.60923H14.9667053l20.4392548,31.8417053 L13.5,82.3878479z" />
-                </vector>
-            </item>
-        </layer-list>
-    </item>
-</selector>
+</layer-list>

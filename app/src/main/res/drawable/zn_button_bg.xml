@@ -7,7 +7,7 @@
             android:dither="@bool/dither_general"
             android:filter="@bool/filter_general"
             android:shape="rectangle">
-            <corners android:radius="@dimen/radius_edge_default" />
+            <corners android:radius="@dimen/radius_edge_infinity" />
             <solid android:color="@android:color/black" />
         </shape>
     </item>

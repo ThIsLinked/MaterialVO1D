@@ -1,25 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:state_enabled="false">
-        <bitmap android:antialias="@bool/antialias_general" android:dither="@bool/dither_general" android:filter="@bool/filter_general" android:gravity="center" android:src="@drawable/zn_ic_zero" />
-    </item>
-    <item android:state_pressed="false">
+
+    <item android:id="@+id/layer_empty" android:drawable="@drawable/zn_ic_zero" android:state_enabled="false" />
+
+    <item android:state_enabled="true">
         <layer-list>
-            <item android:bottom="8dp" android:end="8dp" android:start="8dp" android:top="8dp">
+
+            <item android:id="@+id/layer_background" android:drawable="@drawable/zn_button_bg" />
+
+            <item android:id="@+id/layer_foreground" android:bottom="8dp" android:end="8dp" android:start="8dp" android:top="8dp">
                 <vector android:width="108.0dip" android:height="108.0dip" android:viewportWidth="108.0" android:viewportHeight="108.0">
                     <path android:fillColor="@color/zn_colorControlNormal_negative" android:pathData="M94.5,59.7857132h-81V48.2142868h81V59.7857132z" />
                 </vector>
             </item>
+
         </layer-list>
     </item>
-    <item android:state_pressed="true">
-        <layer-list>
-            <item android:drawable="@drawable/zn_button_bg" />
-            <item android:bottom="8dp" android:end="8dp" android:start="8dp" android:top="8dp">
-                <vector android:width="108.0dip" android:height="108.0dip" android:viewportWidth="108.0" android:viewportHeight="108.0">
-                    <path android:fillColor="@color/zn_colorControlNormal_negative" android:pathData="M94.5,59.7857132h-81V48.2142868h81V59.7857132z" />
-                </vector>
-            </item>
-        </layer-list>
-    </item>
+
 </selector>

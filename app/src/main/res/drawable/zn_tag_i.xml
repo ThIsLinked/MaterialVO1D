@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:state_pressed="false">
-        <layer-list>
-            <item android:bottom="@dimen/tag_bar_italic_padding" android:end="@dimen/tag_bar_italic_padding" android:start="@dimen/tag_bar_italic_padding" android:top="@dimen/tag_bar_italic_padding">
-                <vector android:width="108.0dip" android:height="108.0dip" android:viewportWidth="108.0" android:viewportHeight="108.0">
-                    <path android:fillColor="@color/zn_colorControlNormal" android:pathData="M42.4285698,13.5v17.3571434h12.7864304l-19.7871437,46.285717H19.2857151V94.5h46.2857132V77.1428604H52.7849998 l19.7871437-46.285717h16.1421432V13.5H42.4285698z" />
-                </vector>
-            </item>
-        </layer-list>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/layer_background"
+        android:drawable="@drawable/zn_button_bg" />
+    <item
+        android:id="@+id/layer_foreground"
+        android:bottom="@dimen/tag_bar_italic_padding"
+        android:end="@dimen/tag_bar_italic_padding"
+        android:start="@dimen/tag_bar_italic_padding"
+        android:top="@dimen/tag_bar_italic_padding">
+        <vector
+            android:width="108.0dip"
+            android:height="108.0dip"
+            android:viewportWidth="108.0"
+            android:viewportHeight="108.0">
+            <path
+                android:fillColor="@color/zn_colorControlNormal"
+                android:pathData="M42.4285698,13.5v17.3571434h12.7864304l-19.7871437,46.285717H19.2857151V94.5h46.2857132V77.1428604H52.7849998 l19.7871437-46.285717h16.1421432V13.5H42.4285698z" />
+        </vector>
     </item>
-    <item android:state_pressed="true">
-        <layer-list>
-            <item android:drawable="@drawable/zn_button_bg" />
-            <item android:bottom="@dimen/tag_bar_italic_padding" android:end="@dimen/tag_bar_italic_padding" android:start="@dimen/tag_bar_italic_padding" android:top="@dimen/tag_bar_italic_padding">
-                <vector android:width="108.0dip" android:height="108.0dip" android:viewportWidth="108.0" android:viewportHeight="108.0">
-                    <path android:fillColor="@color/zn_colorControlNormal" android:pathData="M42.4285698,13.5v17.3571434h12.7864304l-19.7871437,46.285717H19.2857151V94.5h46.2857132V77.1428604H52.7849998 l19.7871437-46.285717h16.1421432V13.5H42.4285698z" />
-                </vector>
-            </item>
-        </layer-list>
-    </item>
-</selector>
+</layer-list>

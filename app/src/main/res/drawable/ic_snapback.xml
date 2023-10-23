@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:gravity="center">
+        <bitmap
+            android:antialias="@bool/antialias_general"
+            android:dither="@bool/dither_general"
+            android:filter="@bool/filter_general"
+            android:src="@drawable/ic_snapback_src"
+            android:tint="@color/colorControlNormal" />
+    </item>
+</layer-list>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:state_enabled="false">
-        <bitmap android:gravity="center" android:src="@drawable/zn_ic_zero" />
+        <bitmap android:antialias="@bool/antialias_general" android:dither="@bool/dither_general" android:filter="@bool/filter_general" android:gravity="center" android:src="@drawable/zn_ic_zero" />
     </item>
     <item android:state_pressed="false">
         <layer-list>

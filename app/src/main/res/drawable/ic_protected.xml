@@ -5,6 +5,9 @@
         android:height="18dp"
         android:gravity="center">
         <bitmap
+            android:antialias="@bool/antialias_general"
+            android:dither="@bool/dither_general"
+            android:filter="@bool/filter_general"
             android:src="@drawable/ic_protected_src"
             android:tint="@color/colorControlNormal" />
     </item>

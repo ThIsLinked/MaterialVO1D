@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <item name="zn_ic_zero" type="drawable">@drawable/ic_zero</item>
-    <!-- -->
     <item name="zn_ic_protected_src" type="drawable">@drawable/ic_protected_src</item>
+    <item name="zn_ic_snapback_src" type="drawable">@drawable/ic_snapback_src</item>
+    <item name="zn_ic_zero" type="drawable">@drawable/ic_zero</item>
 </resources>

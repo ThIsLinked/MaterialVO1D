@@ -1,17 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ripple xmlns:android="http://schemas.android.com/apk/res/android"
     android:color="@color/zn_pressed">
-
     <item android:id="@android:id/mask">
-
-        <shape android:shape="rectangle">
-
-            <corners android:radius="@dimen/default_radius_edge" />
-
+        <shape
+            android:antialias="@bool/antialias_general"
+            android:dither="@bool/dither_general"
+            android:filter="@bool/filter_general"
+            android:shape="rectangle">
+            <corners android:radius="@dimen/radius_edge_default" />
             <solid android:color="@android:color/black" />
-
         </shape>
-
     </item>
-
 </ripple>

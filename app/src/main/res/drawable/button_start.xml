@@ -1,33 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:state_pressed="false">
-        <layer-list>
-            <item>
-                <shape android:shape="rectangle">
-                    <solid android:color="@color/brend" />
-                </shape>
-            </item>
-            <item android:bottom="8.0dip" android:left="8.0dip" android:right="8.0dip" android:top="8.0dip">
-                <shape android:dither="true" android:shape="rectangle">
-                    <corners android:radius="3.0dip" />
-                    <solid android:color="@color/start_button_bg" />
-                </shape>
-            </item>
-        </layer-list>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape
+            android:antialias="@bool/antialias_general"
+            android:dither="@bool/dither_general"
+            android:filter="@bool/filter_general"
+            android:shape="rectangle">
+            <solid android:color="@color/main_bg" />
+        </shape>
     </item>
-    <item android:state_pressed="true">
-        <layer-list>
+    <item
+        android:bottom="@dimen/button_start_padding"
+        android:left="@dimen/button_start_padding"
+        android:right="@dimen/button_start_padding"
+        android:top="@dimen/button_start_padding">
+        <ripple android:color="@color/main_bg">
             <item>
-                <shape android:shape="rectangle">
-                    <solid android:color="@color/brend" />
+                <shape
+                    android:antialias="@bool/antialias_general"
+                    android:dither="@bool/dither_general"
+                    android:filter="@bool/filter_general"
+                    android:shape="rectangle">
+                    <corners android:radius="@dimen/radius_edge_large" />
+                    <solid android:color="@color/colorAccent" />
                 </shape>
             </item>
-            <item android:bottom="8.0dip" android:left="8.0dip" android:right="8.0dip" android:top="8.0dip">
-                <shape android:dither="true" android:shape="rectangle">
-                    <corners android:radius="3.0dip" />
-                    <solid android:color="@color/pressed" />
-                </shape>
-            </item>
-        </layer-list>
+        </ripple>
     </item>
-</selector>
+</layer-list>
+

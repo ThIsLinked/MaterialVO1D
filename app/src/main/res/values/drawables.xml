@@ -3,4 +3,5 @@
     <item name="zn_ic_protected_src" type="drawable">@drawable/ic_protected_src</item>
     <item name="zn_ic_snapback_src" type="drawable">@drawable/ic_snapback_src</item>
     <item name="zn_ic_zero" type="drawable">@drawable/ic_zero</item>
+    <item name="zn_ic_zero_src" type="drawable">@drawable/ic_zero_src</item>
 </resources>

@@ -220,7 +220,6 @@
 
     <color name="hotpink">#ffff69b4</color>
 
-    <!-- -->
     <!-- Launcher icon -->
     <color name="ic_launcher_background">@color/material_grey_100</color>
     <color name="ic_launcher_foreground_1">@color/material_royalblue</color>

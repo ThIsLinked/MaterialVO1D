@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <item name="ic_thumb_c_down" type="drawable">@drawable/button_thumb_down</item>
+    <item name="ic_thumb_c_up" type="drawable">@drawable/button_thumb_up</item>
+
     <item name="zn_ic_protected_src" type="drawable">@drawable/ic_protected_src</item>
     <item name="zn_ic_snapback_src" type="drawable">@drawable/ic_snapback_src</item>
+    <item name="zn_ic_thumb_c_down" type="drawable">@drawable/ic_thumb_c_down</item>
+    <item name="zn_ic_thumb_c_up" type="drawable">@drawable/ic_thumb_c_up</item>
     <item name="zn_ic_zero" type="drawable">@drawable/ic_zero</item>
     <item name="zn_ic_zero_src" type="drawable">@drawable/ic_zero_src</item>
 </resources>

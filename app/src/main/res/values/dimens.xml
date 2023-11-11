@@ -1,47 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="button_start_padding">8.0dip</dimen>
+    <dimen name="actionBar_icon_padding">8dp</dimen>
 
-    <dimen name="icon_size_24">24.0dip</dimen>
+    <item format="float" name="button_start_background_opacity" type="dimen">1.0</item>
+    <dimen name="button_start_padding">8dp</dimen>
+
+    <dimen name="icon_size_24">24dp</dimen>
 
     <dimen name="nav_drawer_icon">@dimen/icon_size_24</dimen>
 
     <item format="float" name="pressed_opacity_general" type="dimen">1.0</item>
 
-    <dimen name="radius_edge_default">24.0dip</dimen>
-    <dimen name="radius_edge_infinity">999.0dip</dimen>
+    <dimen name="radius_edge_infinity">9999dp</dimen>
+    <dimen name="radius_edge_regular">24dp</dimen>
+    <dimen name="radius_edge_small">12dp</dimen>
 
-    <dimen name="tag_bar_alignCenter_padding">11.0dip</dimen>
-    <dimen name="tag_bar_alignLeft_padding">11.0dip</dimen>
-    <dimen name="tag_bar_alignRight_padding">11.0dip</dimen>
-    <dimen name="tag_bar_bold_padding">12.0dip</dimen>
-    <dimen name="tag_bar_clear_paddingBottom">9.0dip</dimen>
-    <dimen name="tag_bar_clear_paddingEnd">8.0dip</dimen>
-    <dimen name="tag_bar_clear_paddingStart">8.0dip</dimen>
-    <dimen name="tag_bar_clear_paddingTop">7.0dip</dimen>
-    <dimen name="tag_bar_code_padding">10.0dip</dimen>
-    <dimen name="tag_bar_color_padding">11.0dip</dimen>
-    <dimen name="tag_bar_ex_padding">11.0dip</dimen>
-    <dimen name="tag_bar_hide_padding">9.0dip</dimen>
-    <dimen name="tag_bar_italic_padding">12.0dip</dimen>
-    <dimen name="tag_bar_kur_padding">11.0dip</dimen>
-    <dimen name="tag_bar_link_padding">8.0dip</dimen>
-    <dimen name="tag_bar_listNumber_padding">9.0dip</dimen>
-    <dimen name="tag_bar_list_padding">9.0dip</dimen>
-    <dimen name="tag_bar_mod_padding">11.0dip</dimen>
-    <dimen name="tag_bar_offtop_padding">10.0dip</dimen>
-    <dimen name="tag_bar_quote_padding">9.0dip</dimen>
-    <dimen name="tag_bar_size_padding">10.0dip</dimen>
-    <dimen name="tag_bar_spoilerName_padding">11.0dip</dimen>
-    <dimen name="tag_bar_spoiler_padding">11.0dip</dimen>
-    <dimen name="tag_bar_strike_padding">10.0dip</dimen>
-    <dimen name="tag_bar_subscript_paddingBottom">8.0dip</dimen>
-    <dimen name="tag_bar_subscript_paddingEnd">9.0dip</dimen>
-    <dimen name="tag_bar_subscript_paddingStart">9.0dip</dimen>
-    <dimen name="tag_bar_subscript_paddingTop">10.0dip</dimen>
-    <dimen name="tag_bar_supscript_paddingBottom">10.0dip</dimen>
-    <dimen name="tag_bar_supscript_paddingEnd">9.0dip</dimen>
-    <dimen name="tag_bar_supscript_paddingStart">9.0dip</dimen>
-    <dimen name="tag_bar_supscript_paddingTop">8.0dip</dimen>
-    <dimen name="tag_bar_underline_padding">11.0dip</dimen>
+    <dimen name="tag_bar_alignCenter_padding">11dp</dimen>
+    <dimen name="tag_bar_alignLeft_padding">11dp</dimen>
+    <dimen name="tag_bar_alignRight_padding">11dp</dimen>
+    <dimen name="tag_bar_bold_padding">12dp</dimen>
+    <dimen name="tag_bar_clear_paddingBottom">9dp</dimen>
+    <dimen name="tag_bar_clear_paddingEnd">8dp</dimen>
+    <dimen name="tag_bar_clear_paddingStart">8dp</dimen>
+    <dimen name="tag_bar_clear_paddingTop">7dp</dimen>
+    <dimen name="tag_bar_code_padding">10dp</dimen>
+    <dimen name="tag_bar_color_padding">11dp</dimen>
+    <dimen name="tag_bar_ex_padding">11dp</dimen>
+    <dimen name="tag_bar_hide_padding">9dp</dimen>
+    <dimen name="tag_bar_italic_padding">12dp</dimen>
+    <dimen name="tag_bar_kur_padding">11dp</dimen>
+    <dimen name="tag_bar_link_padding">8dp</dimen>
+    <dimen name="tag_bar_listNumber_padding">9dp</dimen>
+    <dimen name="tag_bar_list_padding">9dp</dimen>
+    <dimen name="tag_bar_mod_padding">11dp</dimen>
+    <dimen name="tag_bar_offtop_padding">10dp</dimen>
+    <dimen name="tag_bar_quote_padding">9dp</dimen>
+    <dimen name="tag_bar_size_padding">10dp</dimen>
+    <dimen name="tag_bar_spoilerName_padding">11dp</dimen>
+    <dimen name="tag_bar_spoiler_padding">11dp</dimen>
+    <dimen name="tag_bar_strike_padding">10dp</dimen>
+    <dimen name="tag_bar_subscript_paddingBottom">8dp</dimen>
+    <dimen name="tag_bar_subscript_paddingEnd">9dp</dimen>
+    <dimen name="tag_bar_subscript_paddingStart">9dp</dimen>
+    <dimen name="tag_bar_subscript_paddingTop">10dp</dimen>
+    <dimen name="tag_bar_supscript_paddingBottom">10dp</dimen>
+    <dimen name="tag_bar_supscript_paddingEnd">9dp</dimen>
+    <dimen name="tag_bar_supscript_paddingStart">9dp</dimen>
+    <dimen name="tag_bar_supscript_paddingTop">8dp</dimen>
+    <dimen name="tag_bar_underline_padding">11dp</dimen>
 </resources>

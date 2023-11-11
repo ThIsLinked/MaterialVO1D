@@ -1,29 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:state_checked="true">
-        <layer-list>
-            <item>
-                <shape android:shape="rectangle">
-                    <solid android:color="@color/pressed" />
-                </shape>
-            </item>
-            <item>
-                <bitmap android:gravity="center" android:src="@drawable/ic_preview" />
-            </item>
-        </layer-list>
-    </item>
-    <item android:state_enabled="true">
-        <layer-list>
-            <item>
-                <bitmap android:gravity="center" android:src="@drawable/ic_preview" />
-            </item>
-        </layer-list>
-    </item>
     <item android:state_enabled="false">
         <layer-list>
-            <item>
-                <bitmap android:gravity="center" android:src="@drawable/ic_preview_disabled" />
+            <item android:id="@+id/layer_foreground_disabled" android:bottom="@dimen/actionBar_icon_padding" android:end="@dimen/actionBar_icon_padding" android:start="@dimen/actionBar_icon_padding" android:top="@dimen/actionBar_icon_padding">
+                <vector android:width="108.0dip" android:height="108.0dip" android:viewportWidth="108.0" android:viewportHeight="108.0">
+                    <path android:fillColor="@color/bar_icon_disabled" android:pathData="M85.5,13.5h-63c-4.9949989,0-9,4.0500011-9,9v63c0,4.9500046,4.0049992,9,9,9h63c4.9500046,0,9-4.0499954,9-9v-63 C94.5,17.5500011,90.4950027,13.5,85.5,13.5z M85.5,85.5h-63v-54h63V85.5z M54,47.25 c8.2799988,0,15.659996,4.3199997,19.5299988,11.25C69.6600037,65.4300003,62.2799988,69.75,54,69.75 S38.340004,65.4300003,34.4700012,58.5C38.340004,51.5699997,45.7200012,47.25,54,47.25 M54,40.5 c-12.284996,0-22.7700005,7.4700012-27,18c4.2299995,10.5299988,14.715004,18,27,18s22.7699966-7.4700012,27-18 C76.7699966,47.9700012,66.284996,40.5,54,40.5L54,40.5z M54,65.25c-3.7350006,0-6.75-3.0149994-6.75-6.75s3.0149994-6.75,6.75-6.75 s6.75,3.0149994,6.75,6.75S57.7350006,65.25,54,65.25z" />
+                </vector>
             </item>
+        </layer-list>
+    </item>
+
+    <item android:state_enabled="true">
+        <layer-list>
+
+            <item android:id="@+id/layer_background" android:drawable="@drawable/button_bg" />
+
+            <item android:id="@+id/layer_foreground" android:bottom="@dimen/actionBar_icon_padding" android:end="@dimen/actionBar_icon_padding" android:start="@dimen/actionBar_icon_padding" android:top="@dimen/actionBar_icon_padding">
+                <vector android:width="108.0dip" android:height="108.0dip" android:viewportWidth="108.0" android:viewportHeight="108.0">
+                    <path android:fillColor="@color/colorControlNormal" android:pathData="M85.5,13.5h-63c-4.9949989,0-9,4.0500011-9,9v63c0,4.9500046,4.0049992,9,9,9h63c4.9500046,0,9-4.0499954,9-9v-63 C94.5,17.5500011,90.4950027,13.5,85.5,13.5z M85.5,85.5h-63v-54h63V85.5z M54,47.25 c8.2799988,0,15.659996,4.3199997,19.5299988,11.25C69.6600037,65.4300003,62.2799988,69.75,54,69.75 S38.340004,65.4300003,34.4700012,58.5C38.340004,51.5699997,45.7200012,47.25,54,47.25 M54,40.5 c-12.284996,0-22.7700005,7.4700012-27,18c4.2299995,10.5299988,14.715004,18,27,18s22.7699966-7.4700012,27-18 C76.7699966,47.9700012,66.284996,40.5,54,40.5L54,40.5z M54,65.25c-3.7350006,0-6.75-3.0149994-6.75-6.75s3.0149994-6.75,6.75-6.75 s6.75,3.0149994,6.75,6.75S57.7350006,65.25,54,65.25z" />
+                </vector>
+            </item>
+
         </layer-list>
     </item>
 </selector>

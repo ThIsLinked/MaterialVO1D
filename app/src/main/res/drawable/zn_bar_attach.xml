@@ -1,26 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:state_pressed="true">
-        <layer-list>
-            <item>
-                <shape android:shape="rectangle">
-                    <solid android:color="@color/zn_pressed" />
-                </shape>
-            </item>
-            <item>
-                <inset android:insetLeft="8.0dip" android:insetTop="0.0dip" android:insetRight="0.0dip" android:insetBottom="0.0dip">
-                    <bitmap android:gravity="left" android:src="@drawable/zn_ic_attach" />
-                </inset>
-            </item>
-        </layer-list>
-    </item>
     <item android:state_enabled="true">
         <layer-list>
-            <item>
-                <inset android:insetLeft="8.0dip" android:insetTop="0.0dip" android:insetRight="0.0dip" android:insetBottom="0.0dip">
-                    <bitmap android:gravity="left" android:src="@drawable/zn_ic_attach" />
-                </inset>
+
+            <item android:id="@+id/layer_background" android:drawable="@drawable/zn_button_bg" />
+
+            <item android:id="@+id/layer_foreground" android:bottom="@dimen/actionBar_icon_padding" android:end="@dimen/actionBar_icon_padding" android:start="@dimen/actionBar_icon_padding" android:top="@dimen/actionBar_icon_padding">
+                <vector android:width="108.0dip" android:height="108.0dip" android:viewportWidth="108.0" android:viewportHeight="108.0">
+                    <path android:fillColor="@color/zn_colorControlNormal" android:pathData="M68.727272,31.90909V74.25c0,8.1368179-6.5904541,14.727272-14.727272,14.727272S39.272728,82.3868179,39.272728,74.25 V28.227272c0-5.0809097,4.1236343-9.2045441,9.2045441-9.2045441s9.2045479,4.1236343,9.2045479,9.2045441v38.6590881 c0,2.0250015-1.6568184,3.6818237-3.6818199,3.6818237s-3.6818199-1.6568222-3.6818199-3.6818237V31.90909h-5.5227242v34.977272 c0,5.0809097,4.1236343,9.2045517,9.2045441,9.2045517s9.2045441-4.123642,9.2045441-9.2045517V28.227272 C63.2045441,20.0904541,56.61409,13.5,48.477272,13.5S33.75,20.0904541,33.75,28.227272V74.25 c0,11.1927338,9.0572739,20.25,20.25,20.25s20.25-9.0572662,20.25-20.25V31.90909H68.727272z" />
+                </vector>
             </item>
+
         </layer-list>
     </item>
 </selector>

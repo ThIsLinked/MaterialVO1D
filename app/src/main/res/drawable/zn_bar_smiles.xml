@@ -1,22 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:state_pressed="true">
-        <layer-list>
-            <item>
-                <shape android:shape="rectangle">
-                    <solid android:color="@color/zn_pressed" />
-                </shape>
-            </item>
-            <item>
-                <bitmap android:gravity="center" android:src="@drawable/zn_ic_smiles" />
-            </item>
-        </layer-list>
-    </item>
     <item android:state_enabled="true">
         <layer-list>
-            <item>
-                <bitmap android:gravity="center" android:src="@drawable/zn_ic_smiles" />
+
+            <item android:id="@+id/layer_background" android:drawable="@drawable/zn_button_bg" />
+
+            <item android:id="@+id/layer_foreground" android:bottom="@dimen/actionBar_icon_padding" android:end="@dimen/actionBar_icon_padding" android:start="@dimen/actionBar_icon_padding" android:top="@dimen/actionBar_icon_padding">
+                <vector android:width="108.0dip" android:height="108.0dip" android:viewportWidth="108.0" android:viewportHeight="108.0">
+                    <path android:fillColor="@color/zn_colorControlNormal" android:pathData="M53.96,13.5C31.6,13.5 13.5,31.64 13.5,54s18.1,40.5 40.46,40.5C76.36,94.5 94.5,76.36 94.5,54S76.36,13.5 53.96,13.5zM54,86.4C36.1,86.4 21.6,71.9 21.6,54S36.1,21.6 54,21.6S86.4,36.1 86.4,54S71.9,86.4 54,86.4z M54,78.3c9.23,0 17.09,-6.72 20.25,-16.2h-40.5C36.91,71.58 44.77,78.3 54,78.3z M39.83,43.88m-6.07,0a6.07,6.07 0,1 1,12.15 0a6.07,6.07 0,1 1,-12.15 0z M68.18,43.88m-6.07,0a6.07,6.07 0,1 1,12.15 0a6.07,6.07 0,1 1,-12.15 0z" />
+                </vector>
             </item>
+
         </layer-list>
     </item>
 </selector>

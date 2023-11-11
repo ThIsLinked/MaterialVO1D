@@ -1,29 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:state_pressed="true">
-        <layer-list>
-            <item>
-                <shape android:shape="rectangle">
-                    <solid android:color="@color/pressed" />
-                </shape>
-            </item>
-            <item>
-                <bitmap android:gravity="center" android:src="@drawable/ic_send" />
-            </item>
-        </layer-list>
-    </item>
-    <item android:state_enabled="true">
-        <layer-list>
-            <item>
-                <bitmap android:gravity="center" android:src="@drawable/ic_send" />
-            </item>
-        </layer-list>
-    </item>
     <item android:state_enabled="false">
         <layer-list>
-            <item>
-                <bitmap android:gravity="center" android:src="@drawable/ic_send_disable" />
+            <item android:id="@+id/layer_foreground_disabled" android:bottom="@dimen/actionBar_icon_padding" android:end="@dimen/actionBar_icon_padding" android:start="@dimen/actionBar_icon_padding" android:top="@dimen/actionBar_icon_padding">
+                <vector android:width="108.0dip" android:height="108.0dip" android:viewportWidth="108.0" android:viewportHeight="108.0">
+                    <path android:fillColor="@color/bar_icon_disabled" android:pathData="M13.5,19.9663925v68.067215L94.5,54L13.5,19.9663925z M22.0084019,75.2284317V60.3813019L47.5336075,54 l-25.5252056-6.3813019V32.7715149L72.5321198,54L22.0084019,75.2284317z" />
+                </vector>
             </item>
+        </layer-list>
+    </item>
+
+    <item android:state_enabled="true">
+        <layer-list>
+
+            <item android:id="@+id/layer_background" android:drawable="@drawable/button_bg" />
+
+            <item android:id="@+id/layer_foreground" android:bottom="@dimen/actionBar_icon_padding" android:end="@dimen/actionBar_icon_padding" android:start="@dimen/actionBar_icon_padding" android:top="@dimen/actionBar_icon_padding">
+                <vector android:width="108.0dip" android:height="108.0dip" android:viewportWidth="108.0" android:viewportHeight="108.0">
+                    <path android:fillColor="@color/colorControlNormal" android:pathData="M13.5,19.9663925v68.067215L94.5,54L13.5,19.9663925z M22.0084019,75.2284317V60.3813019L47.5336075,54 l-25.5252056-6.3813019V32.7715149L72.5321198,54L22.0084019,75.2284317z" />
+                </vector>
+            </item>
+
         </layer-list>
     </item>
 </selector>

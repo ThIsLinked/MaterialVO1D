@@ -1,29 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:state_pressed="true">
-        <layer-list>
-            <item>
-                <shape android:shape="rectangle">
-                    <solid android:color="@color/zn_pressed" />
-                </shape>
-            </item>
-            <item>
-                <bitmap android:gravity="center" android:src="@drawable/zn_ic_bar_up" />
-            </item>
-        </layer-list>
-    </item>
+
+    <item android:id="@+id/layer_empty" android:drawable="@drawable/zn_ic_zero" android:state_enabled="false" />
+
     <item android:state_enabled="true">
         <layer-list>
-            <item>
-                <bitmap android:gravity="center" android:src="@drawable/zn_ic_bar_up" />
+
+            <item android:id="@+id/layer_background" android:drawable="@drawable/zn_button_bg" />
+
+            <item
+                android:id="@+id/layer_foreground"
+                android:top="@dimen/actionBar_icon_padding"
+                android:start="@dimen/actionBar_icon_padding"
+                android:end="@dimen/actionBar_icon_padding"
+                android:bottom="@dimen/actionBar_icon_padding">
+                <vector android:width="108.0dip" android:height="108.0dip" android:viewportWidth="108.0" android:viewportHeight="108.0">
+                    <path android:fillColor="@color/zn_colorControlNormal" android:pathData="M33.75,64.13l15.19,0l0,20.25l10.13,0l0,-20.25l15.19,0l-20.25,-20.25z M13.5,23.63h81v10.13h-81z" />
+                </vector>
             </item>
+
         </layer-list>
     </item>
-    <item android:state_enabled="false">
-        <layer-list>
-            <item>
-                <bitmap android:gravity="center" android:src="@drawable/zn_ic_zero" />
-            </item>
-        </layer-list>
-    </item>
+
 </selector>

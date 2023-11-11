@@ -17,7 +17,7 @@
         android:left="@dimen/button_start_padding"
         android:right="@dimen/button_start_padding"
         android:top="@dimen/button_start_padding">
-        <ripple android:color="@color/zn_main_bg">
+        <ripple android:color="@color/zn_button_start_background">
             <item>
                 <shape
                     android:antialias="@bool/antialias_general"

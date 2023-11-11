@@ -1,22 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:state_pressed="true">
-        <layer-list>
-            <item>
-                <shape android:shape="rectangle">
-                    <solid android:color="@color/zn_pressed" />
-                </shape>
-            </item>
-            <item>
-                <bitmap android:gravity="center" android:src="@drawable/zn_ic_bar_menu" />
-            </item>
-        </layer-list>
-    </item>
     <item android:state_enabled="true">
         <layer-list>
-            <item>
-                <bitmap android:gravity="center" android:src="@drawable/zn_ic_bar_menu" />
+
+            <item android:id="@+id/layer_background" android:drawable="@drawable/zn_button_bg" />
+
+            <item
+                android:id="@+id/layer_foreground"
+                android:top="@dimen/actionBar_icon_padding"
+                android:start="@dimen/actionBar_icon_padding"
+                android:end="@dimen/actionBar_icon_padding"
+                android:bottom="@dimen/actionBar_icon_padding">
+                <vector android:width="108.0dip" android:height="108.0dip" android:viewportWidth="108.0" android:viewportHeight="108.0">
+                    <path android:fillColor="@color/zn_colorControlNormal" android:pathData="M54,33.75c5.5687523,0,10.125-4.5562496,10.125-10.125S59.5687523,13.5,54,13.5s-10.125,4.5562496-10.125,10.125 S48.4312477,33.75,54,33.75z M54,43.875c-5.5687523,0-10.125,4.5562477-10.125,10.125S48.4312477,64.125,54,64.125 S64.125,59.5687523,64.125,54S59.5687523,43.875,54,43.875z M54,74.25c-5.5687523,0-10.125,4.5562515-10.125,10.125 S48.4312477,94.5,54,94.5s10.125-4.5562515,10.125-10.125S59.5687523,74.25,54,74.25z" />
+                </vector>
             </item>
+
         </layer-list>
     </item>
 </selector>

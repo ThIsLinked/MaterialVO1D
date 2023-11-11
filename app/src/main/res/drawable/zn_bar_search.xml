@@ -1,22 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:state_pressed="true">
-        <layer-list>
-            <item>
-                <shape android:shape="rectangle">
-                    <solid android:color="@color/zn_pressed" />
-                </shape>
-            </item>
-            <item>
-                <bitmap android:gravity="center" android:src="@drawable/zn_ic_bar_search" />
-            </item>
-        </layer-list>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/layer_background"
+        android:drawable="@drawable/button_bg" />
+
+    <item
+        android:id="@+id/layer_foreground"
+        android:bottom="@dimen/actionBar_icon_padding"
+        android:end="@dimen/actionBar_icon_padding"
+        android:start="@dimen/actionBar_icon_padding"
+        android:top="@dimen/actionBar_icon_padding">
+        <vector
+            android:width="108.0dip"
+            android:height="108.0dip"
+            android:viewportWidth="108.0"
+            android:viewportHeight="108.0">
+            <path
+                android:fillColor="@color/zn_colorControlNormal"
+                android:pathData="M71.3902206,64.4433975h-3.6586609l-1.2967377-1.2504311c4.5385895-5.2795868,7.2710114-12.1337891,7.2710114-19.5900497 C73.7058334,26.9768429,60.2289886,13.5,43.6029167,13.5S13.5,26.9768429,13.5,43.6029167 s13.4768429,30.1029167,30.1029167,30.1029167c7.4562607,0,14.310463-2.7324219,19.5900497-7.2710114l1.2504311,1.2967377v3.6586609 L87.5994873,94.5L94.5,87.5994873L71.3902206,64.4433975z M43.6029167,64.4433975 c-11.5317307,0-20.8404808-9.3087502-20.8404808-20.8404808s9.3087502-20.8404808,20.8404808-20.8404808 s20.8404808,9.3087502,20.8404808,20.8404808S55.1346474,64.4433975,43.6029167,64.4433975z" />
+        </vector>
     </item>
-    <item android:state_enabled="true">
-        <layer-list>
-            <item>
-                <bitmap android:gravity="center" android:src="@drawable/zn_ic_bar_search" />
-            </item>
-        </layer-list>
-    </item>
-</selector>
+
+</layer-list>

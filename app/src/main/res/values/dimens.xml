@@ -2,14 +2,14 @@
 <resources>
     <dimen name="actionBar_icon_padding">8dp</dimen>
 
-    <item format="float" name="button_start_background_opacity" type="dimen">1.0</item>
+    <item name="button_start_background_opacity" format="float" type="dimen">1.0</item>
     <dimen name="button_start_padding">8dp</dimen>
 
     <dimen name="icon_size_24">24dp</dimen>
 
     <dimen name="nav_drawer_icon">@dimen/icon_size_24</dimen>
 
-    <item format="float" name="pressed_opacity_general" type="dimen">1.0</item>
+    <item name="pressed_opacity_general" format="float" type="dimen">1.0</item>
 
     <dimen name="radius_edge_infinity">9999dp</dimen>
     <dimen name="radius_edge_regular">24dp</dimen>

@@ -8,12 +8,7 @@
 
             <item android:id="@+id/layer_background" android:drawable="@drawable/zn_button_bg" />
 
-            <item
-                android:id="@+id/layer_foreground"
-                android:top="@dimen/actionBar_icon_padding"
-                android:start="@dimen/actionBar_icon_padding"
-                android:end="@dimen/actionBar_icon_padding"
-                android:bottom="@dimen/actionBar_icon_padding">
+            <item android:id="@+id/layer_foreground" android:bottom="@dimen/actionBar_icon_padding" android:end="@dimen/actionBar_icon_padding" android:start="@dimen/actionBar_icon_padding" android:top="@dimen/actionBar_icon_padding">
                 <vector android:width="108.0dip" android:height="108.0dip" android:viewportWidth="108.0" android:viewportHeight="108.0">
                     <path android:fillColor="@color/zn_colorControlNormal" android:pathData="M33.75,64.13l15.19,0l0,20.25l10.13,0l0,-20.25l15.19,0l-20.25,-20.25z M13.5,23.63h81v10.13h-81z" />
                 </vector>

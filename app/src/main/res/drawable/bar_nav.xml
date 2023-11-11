@@ -5,12 +5,7 @@
 
             <item android:id="@+id/layer_background" android:drawable="@drawable/button_bg" />
 
-            <item
-                android:id="@+id/layer_foreground"
-                android:top="@dimen/actionBar_icon_padding"
-                android:start="@dimen/actionBar_icon_padding"
-                android:end="@dimen/actionBar_icon_padding"
-                android:bottom="@dimen/actionBar_icon_padding">
+            <item android:id="@+id/layer_foreground" android:bottom="@dimen/actionBar_icon_padding" android:end="@dimen/actionBar_icon_padding" android:start="@dimen/actionBar_icon_padding" android:top="@dimen/actionBar_icon_padding">
                 <vector android:width="108.0dip" android:height="108.0dip" android:viewportWidth="108.0" android:viewportHeight="108.0">
                     <path android:fillColor="@color/colorControlNormal" android:pathData="M13.5,81h81v-9h-81V81z M13.5,58.5h81v-9h-81V58.5z M13.5,27v9h81v-9H13.5z" />
                 </vector>

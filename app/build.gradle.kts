@@ -48,12 +48,12 @@ android {
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
             )
+            signingConfig = signingConfigs.getByName("debug")
         }
     }
 
     buildFeatures {
-        /* Generate BuildConfig classes */
-        buildConfig = true
+        buildConfig = true // Generate BuildConfig classes
     }
 
     compileOptions {

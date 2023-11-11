@@ -2,6 +2,8 @@
 <resources>
     <dimen name="actionBar_icon_padding">8dp</dimen>
 
+    <item name="bar_icon_disabled_opacity" format="float" type="dimen">0.35</item>
+
     <item name="button_start_background_opacity" format="float" type="dimen">1.0</item>
     <dimen name="button_start_padding">8dp</dimen>
 

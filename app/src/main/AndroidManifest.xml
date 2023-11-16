@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:installLocation="auto">
 
     <application
@@ -11,7 +12,8 @@
 
         <receiver
             android:name="ru.fourpda.skins.BindReceiver"
-            android:exported="true">
+            android:exported="true"
+            tools:ignore="ExportedReceiver">
 
             <intent-filter>
                 <action android:name="ru.fourpda.skin" />

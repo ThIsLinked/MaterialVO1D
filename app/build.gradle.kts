@@ -32,7 +32,7 @@ android {
     defaultConfig {
         //applicationId = "ru.fourpda.skins.materialvoid"
         applicationId = "ru.fourpda.skins.FadePlus"
-        minSdk = 23
+        minSdk = 24
         targetSdk = 28
 
         versionCode = 10942000

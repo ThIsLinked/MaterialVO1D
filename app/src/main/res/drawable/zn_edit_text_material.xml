@@ -1,17 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<inset xmlns:android="http://schemas.android.com/apk/res/android"
-    android:insetLeft="0.0dip"
-    android:insetTop="0.0dip"
-    android:insetRight="0.0dip"
-    android:insetBottom="0.0dip">
-    <selector>
-        <item
-            android:state_enabled="true"
-            android:state_focused="true">
-            <nine-patch android:src="@drawable/zn_textfield_activated" />
-        </item>
-        <item>
-            <nine-patch android:src="@drawable/zn_textfield_default" />
-        </item>
-    </selector>
-</inset>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_focused="true">
+        <nine-patch android:src="@drawable/zn_textfield_default_mtrl_alpha" android:tint="@color/zn_colorAccent" />
+    </item>
+    <item>
+        <nine-patch android:src="@drawable/zn_textfield_default_mtrl_alpha" android:tint="@color/zn_edit_text_material_unfocused" />
+    </item>
+</selector>
